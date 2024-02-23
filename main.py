@@ -94,7 +94,6 @@ async def on_message(message):
 
     if client.user.mentioned_in(message):
         user_input = message.content
-        print(user_input)
         convo = model.start_chat(history=history)
         convo.send_message(user_input)
         model_response = convo.last.text
