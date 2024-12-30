@@ -2,6 +2,8 @@
 
 This Discord bot utilizes GenerativeAI to create a chatbot experience within Discord channels. The bot responds to mentions and engages in conversation based on the configured GenerativeAI model.
 
+Agentic Gemini Soon
+
 ## Setup
 
 ### Obtaining API Keys
